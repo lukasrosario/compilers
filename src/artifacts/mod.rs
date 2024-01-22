@@ -791,6 +791,7 @@ pub enum EvmVersion {
     Berlin,
     London,
     Paris,
+    Fjord,
     #[default]
     Shanghai,
 }
@@ -841,6 +842,7 @@ impl EvmVersion {
             Self::London => "london",
             Self::Paris => "paris",
             Self::Shanghai => "shanghai",
+            Self::Fjord => "fjord",
         }
     }
 
